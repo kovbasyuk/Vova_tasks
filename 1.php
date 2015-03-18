@@ -14,8 +14,9 @@
     echo "Моє ім'я". $name. "<br>Мені". $age. " років.";
     ?>
     <?php
-    define("Ігор",24);
+    define("Ігор",23,true);
     echo Ігор;
+    if (defined("Ігор")==true) echo "Константа Ігор объявлена!";
     ?>
 
 </div>
