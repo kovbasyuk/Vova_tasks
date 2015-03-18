@@ -13,6 +13,11 @@
 
     echo "Моє ім'я". $name. "<br>Мені". $age. " років.";
     ?>
+    <?php
+    define("Ігор",24);
+    echo Ігор;
+    ?>
+
 </div>
 </body>
 </html>
