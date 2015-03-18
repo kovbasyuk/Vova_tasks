@@ -9,6 +9,7 @@
     <?php
     $name = "Ігор";
     $age = 24;
+    unset($age);
 
     echo "Моє ім'я". $name. "<br>Мені". $age. " років.";
     ?>
