@@ -7,22 +7,12 @@
 <div>
 
     <?php
-    $day=10;
-    switch($day){
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-            echo "Це робочий день";
-            break;
-        case 6:
-        case 7:
-            echo "Це вихідний день";
-            break;
-        default:
-            echo "Не відомий день";
-    }
+    $bmw = array("model" => "X5", "speed" => "120", "doors" => "5", "year" => "2006");
+    $toyota = array("model" => "Carina", "speed" => "130", "doors" => "4", "year" => "2007");
+    $opel = array("model" => "Corsa", "speed" => "140", "doors" => "5", "year" => "2007");
+    echo " Модель-". $bmw ["model"].", Швидкість-".$bmw ["speed"].", Дверок-".$bmw ["doors"].", Рік-".$bmw ["year"]."<br>";
+    echo " Модель-". $toyota ["model"].", Швидкість-".$toyota ["speed"].", Дверок-".$toyota ["doors"].", Рік-".$toyota ["year"]."<br>";
+    echo " Модель-". $opel ["model"].", Швидкість-".$opel ["speed"].", Дверок-".$opel ["doors"].", Рік-".$opel ["year"]."<br>";
     ?>
 
 </div>
